@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option go_package = "./generated";
+
+message Mail {
+  int64 id = 1;
+  string text = 2;
+}
+
+
+service RepositoryService {
+
+  rpc receive (Mail) returns (Mail);
+
+}
