@@ -1,0 +1,10 @@
+{
+  "database" : {
+    "username" : "postgres",
+    "password" : "root",
+    "host" : "localhost",
+    "port" : "5433",
+    "name" : "location-service",
+    "schema" : "public"
+  }
+}
